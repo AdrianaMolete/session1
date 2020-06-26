@@ -13,7 +13,6 @@ print (split_pairs("abcdef"))
 
 
 a = "This is an example!"
-b = "double spaces"
 words = a.split()
 invers = ""
 for word in words:
@@ -21,7 +20,6 @@ for word in words:
         invers += c
     invers += " "
 print(invers)
-
 
 
 
