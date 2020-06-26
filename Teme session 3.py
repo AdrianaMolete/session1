@@ -12,6 +12,9 @@ print (split_pairs("abcdef"))
 
 
 
+
+
+
 a = "This is an example!"
 words = a.split()
 invers = ""
@@ -25,3 +28,20 @@ print(invers)
 
 
 
+
+class Human:
+    def __init__ (self, name):
+        self.name = name
+
+class Adam(Human):
+    pass
+class Eva(Human):
+    pass
+def rezolvare():
+    return[Adam('a'), Eva('e')]
+
+x, y = rezolvare()
+print(type(x))
+print(type(y))
+print(isinstance(x,Adam))
+print(isinstance(x,Human))
